@@ -1,0 +1,193 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.left {
+  background-color: #fff;
+  width: 50%;
+  margin: 5%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+}
+
+.left-content{
+  text-align-last: center;
+}
+
+.left-header {
+  height: 10%;
+  display: flex;
+}
+
+.title {
+  width: 50%;
+  text-align: center;
+}
+
+.text-histoire {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: xxx-large;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* CSS */
+.button-engagement {
+  margin: 5%;
+  appearance: none;
+  background-color: #FAFBFC;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292E;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-engagement:hover {
+  background-color: #F3F4F6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-engagement:disabled {
+  background-color: #FAFBFC;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959DA5;
+  cursor: default;
+}
+
+.button-engagement:active {
+  background-color: #EDEFF2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-engagement:focus {
+  outline: 1px transparent;
+}
+
+.button-engagement:before {
+  display: none;
+}
+
+.button-engagement:-webkit-details-marker {
+  display: none;
+}
+
+.title {
+  width: 48%; /* Ajustez selon vos besoins */
+  text-align: center;
+}
+
+.container {
+    background-color: #ffd9e0;
+    display: flex;
+    align-items: center; /* Centrer verticalement */
+  }
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    margin-left: 10%;
+    text-align-last: center;
+    margin-right: 10%;
+}
+.image-container img {
+  border-radius: 15px;
+  margin-top: 15%;
+  width: 80%;
+  border: black 2px outset;
+}
+  
+  .text {
+    font-size: xxx-large;
+    font-weight: bold;
+    color: white;
+    margin: 10%;
+    flex: 1; /* Le texte prendra tout l'espace disponible */
+  }
+
+  .image {
+    margin-left: 20px; /* Espacement entre le texte et l'image */
+  }  
+
+header {
+    background-color: #fff;
+    color: #535353;
+    padding: 20px;
+    text-align-last: center;
+  }
+  
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+nav ul li a {
+    color: #535353;
+    text-decoration: none;
+  }
+  
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 20px;
+  }
+  
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+.btn:hover {
+    background-color: #555;
+  }
+  
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
