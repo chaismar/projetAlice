@@ -5,7 +5,22 @@ body {
     background-color: lightblue;
 }
 
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
 
+.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-wrapper:hover .hover-image {
+  opacity: 1;
+}
 
 .left {
   background-color: #fff;
